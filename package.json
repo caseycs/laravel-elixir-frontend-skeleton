@@ -1,0 +1,9 @@
+{
+  "name": "motoshare",
+  "dependencies": {
+    "laravel-elixir": "^4.0.4"
+  },
+  "scripts": {
+    "install": "gulp"
+  }
+}
