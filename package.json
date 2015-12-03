@@ -1,5 +1,4 @@
 {
-  "name": "motoshare",
   "dependencies": {
     "laravel-elixir": "^4.0.4"
   },

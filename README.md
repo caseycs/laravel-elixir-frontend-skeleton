@@ -1,6 +1,7 @@
 # laravel-elixir-frontend-skeleton
 
-How to develop front-end for Laravel-based application, when back-end is not ready?
+How to develop front-end for Laravel-based application, when back-end is not ready,
+but you still watch to use twig layouts, macros, includes and also js and css pre-processing? 
 
 Just few steps:
 
@@ -16,8 +17,12 @@ Just few steps:
 
 ## What's next?
 
-Twig templates are in `app/resources`.
-CSS: `resources/assets/js`
+Twig templates: `app/resources`.
+
+Data for templates: `data`, `data/global.js` is included for all the pages.
+
+CSS: `resources/assets/css`
+
 JS: `resources/assets/js`
 
 Start developing!

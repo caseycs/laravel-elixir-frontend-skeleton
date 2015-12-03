@@ -48,7 +48,7 @@ class MicroKernel extends Kernel
         $templateData = [];
 
         foreach (['global', $path] as $dataFileSuffix) {
-            $dataPath = __DIR__ . '/data/' . $dataFileSuffix . '.json';
+            $dataPath = __DIR__ . '/../data/' . $dataFileSuffix . '.json';
             if (is_file($dataPath)) {
                 $templateData = array_merge($templateData, json_decode(file_get_contents($dataPath), true));
             }
